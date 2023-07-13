@@ -1,0 +1,71 @@
+import 'package:get/get.dart';
+
+class Dimensions {
+// Stack widget
+  static double screenHeight = Get.context!.height;
+  static double screenWidth = Get.context!.width;
+
+// Ini Buat global
+  static double height2 = screenHeight / 390.5;
+  static double height3 = screenHeight / 260.3;
+  static double height4 = screenHeight / 195.2;
+  static double height5 = screenHeight / 156.2;
+  static double height8 = screenHeight / 97.6;
+  static double height10 = screenHeight / 78.1;
+  static double height11 = screenHeight / 71.1;
+  static double height12 = screenHeight / 65.08;
+  static double height13 = screenHeight / 59.06;
+  static double height14 = screenHeight / 53.04;
+  static double height15 = screenHeight / 52.07;
+  static double height16 = screenHeight / 46.05;
+  static double height17 = screenHeight / 40.03;
+  static double height18 = screenHeight / 39.06;
+  static double height19 = screenHeight / 39.05;
+  static double height20 = screenHeight / 39.05;
+  static double height22 = screenHeight / 35.5;
+  static double height24 = screenHeight / 32.5;
+  static double height25 = screenHeight / 31.24;
+  static double height27 = screenHeight / 28.9;
+  static double height30 = screenHeight / 26.03;
+  static double height35 = screenHeight / 22.31;
+  static double height40 = screenHeight / 19.5;
+  static double height45 = screenHeight / 17.3;
+  static double height50 = screenHeight / 15.6;
+  static double height60 = screenHeight / 13.01;
+  static double height61 = screenHeight / 12.9;
+  static double height62 = screenHeight / 11.4;
+  static double height70 = screenHeight / 11.15;
+  static double height75 = screenHeight / 10.41;
+  static double height80 = screenHeight / 9.76;
+  static double height90 = screenHeight / 8.67;
+  static double height100 = screenHeight / 7.80;
+  static double height110 = screenHeight / 7.1;
+  static double height120 = screenHeight / 6.50;
+  static double height130 = screenHeight / 6.01;
+  static double height135 = screenHeight / 5.78;
+  static double height140 = screenHeight / 5.5;
+  static double height150 = screenHeight / 5.2;
+  static double height180 = screenHeight / 4.33;
+  static double height200 = screenHeight / 3.90;
+  static double height230 = screenHeight / 3.39;
+  static double height240 = screenHeight / 3.28;
+  static double height246 = screenHeight / 3.17;
+  static double height250 = screenHeight / 3.12;
+  static double height260 = screenHeight / 3.01;
+  static double height270 = screenHeight / 2.90;
+  static double height280 = screenHeight / 2.80;
+  static double height290 = screenHeight / 2.70;
+  static double height300 = screenHeight / 2.60;
+  static double height310 = screenHeight / 2.50;
+  static double height320 = screenHeight / 2.40;
+  static double height325 = screenHeight / 2.35;
+  static double height327 = screenHeight / 2.32;
+  static double height330 = screenHeight / 2.30;
+  static double height340 = screenHeight / 2.20;
+  static double height350 = screenHeight / 2.10;
+  static double height360 = screenHeight / 2.01;
+  static double height370 = screenHeight / 1.92;
+  static double height380 = screenHeight / 1.83;
+  static double height390 = screenHeight / 1.74;
+  static double height400 = screenHeight / 1.65;
+}
