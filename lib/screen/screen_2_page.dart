@@ -12,7 +12,8 @@ import 'package:suitmedia_test/screen/screen_provider.dart';
 
 class Screen2Page extends StatefulWidget {
   String? name;
-  Screen2Page({required this.name});
+  String? user;
+  Screen2Page({required this.name, required this.user});
 
   @override
   State<Screen2Page> createState() => Screen2PageState();
@@ -52,7 +53,7 @@ class Screen2PageState extends State<Screen2Page> {
                       color: Color(0xff04021D),
                     ),
                     TextP(
-                      title: 'John Doe',
+                      title: '${widget.user}',
                       size: Dimensions.height18,
                       font: FontWeight.w600,
                       color: Color(0xff04021D),
@@ -78,7 +79,7 @@ class Screen2PageState extends State<Screen2Page> {
                       onPressed: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => Screen3Page())),
+                              builder: (context) => Screen3Page(user: widget.user,))),
                     ),
                   ],
                 ),

@@ -94,14 +94,7 @@ class Screen1PageState extends State<Screen1Page> {
                           ButtonDefault(
                             title: 'NEXT',
                             color: Color(0xff2B637B),
-                            onPressed: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => Screen2Page(
-                                            name: '',
-                                          )));
-                            },
+                            onPressed: () => value.checkNext(context),
                           ),
                         ],
                       ),
